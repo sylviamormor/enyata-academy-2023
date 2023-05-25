@@ -1,0 +1,106 @@
+.box3 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 620px;
+    background-color: dodgerblue;
+    border: 1px solid #000000;
+    margin: 30px 
+  }
+    
+
+h3 {
+    color: white;
+}   
+    
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 590px
+  }
+  
+  
+  
+  .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 275px;
+    height: 240px;
+    background-color: red;
+    text-decoration: center;
+    margin-top: 50px;
+  }
+  
+
+  .box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    width: 275px;
+    height: 240px;
+    background-color: #8F00FF;
+    border: 1px solid #000000;
+    margin: 20px auto;
+  }
+
+
+
+
+
+.responsive-container {
+    display: flex;
+    flex-direction: column;
+     margin: 100px auto;
+     gap: 20px;
+     width: 100px auto
+}
+    
+  .item-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;  
+}
+
+  .item {
+    background-color: rgb(113, 117, 122);
+    height: 200px;
+    width: 200px;
+}
+  
+  
+  @media screen and (min-width: 1024px) {
+    .item-container {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+  
+    .item {
+        background-color: rgb(113, 117, 122);
+        width: 80%;
+        height: 100px;
+        
+    }
+}
+  @media screen and (min-width: 360px) and (max-width :640px) {
+    .item-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .item {
+        width: 80%;
+        height: 100px;
+        margin: 0 auto;
+    }
+}
+
+  

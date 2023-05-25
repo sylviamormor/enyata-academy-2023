@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .box {
+    width: calc(25% - 20px);
+    height: 200px;
+    margin-bottom: 20px;
+    background-color: dodgerblue;
+    border: 1px solid #000000;
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .container {
+      justify-content: center;
+    }
+  
+    .box {
+      width: calc(100% - 40px);
+      margin-bottom: 20px;
+    }
+  }
+  

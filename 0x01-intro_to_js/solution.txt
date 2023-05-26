@@ -1,0 +1,46 @@
+
+Question 1
+'let' 'var' and 'const' are used to declare variables in JavaScript. The difference t
+hat let allows for variable reassignment, while const creates a variable with a constant 
+(unchanging) value and var creates variables you can use anywhere inside the function.
+
+Question 2
+
+After defining a variable, we can use it by referencing its name in our code. 
+
+Question 3
+We can declare a string by enclosing the text within either 
+single quotes (') or double quotes ("). 
+For example:
+ let myString = 'Sylvia';
+
+Question 4
+Yes, we can create strings with either single or double quotes. Both are valid ways to 
+define a string in JavaScript.
+
+Question 5
+"9" with quotes is a string literal, representing the character sequence "9". 
+It is treated as a string type in JavaScript.
+
+9 without quotes is a number literal, representing the numeric value 9. 
+It is treated as a number type in JavaScript.
+
+Question 6
+
+Declaration: 
+Declaring a variable involves introducing the variable name to the JavaScript environment. 
+It tells the interpreter that the variable exists and may be used later.
+
+Redeclaration: 
+Redeclaration refers to declaring a variable that has already been declared before. 
+In JavaScript, variables declared with let and const cannot be redeclared within the same scope,
+while variables declared with var can be.
+
+Assignment:
+Assigning a value to a variable involves giving the variable a value for the first time
+or changing its existing value. It is done using the assignment operator (=).
+
+Reassignment:
+Reassigning a value to a variable means changing the existing value of the
+variable to a new value. It is also done using the assignment operator (=), 
+but on a variable that has already been declared and assigned a value.

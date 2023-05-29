@@ -7,9 +7,8 @@ console.log(typeof myName); // Output: "string"
 
 
 // Change the value of myName to your surname
-myName = "Mormor"
-
-
+myName = "Mormor";
+console.log(myName)
 
 //car object with 10 properties
 let car = {
